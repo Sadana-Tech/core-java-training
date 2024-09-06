@@ -12,6 +12,8 @@ public class DemoAbstraction {
 		paymentMethod1.chargeCustomer();
 		
 		
+		
+		
 	}
 
 }

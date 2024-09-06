@@ -1,6 +1,6 @@
 package com.training.inheritance;
 
-public class Vehicle {
+public class Vehicle2 {
 
 	public void engine() {
 	    System.out.println("Engine functioning");
@@ -11,6 +11,6 @@ public class Vehicle {
 	  }
 	
 	public void brake() {
-	    System.out.println("Vehicle ::Brake functioning");
+	    System.out.println(" Vehicle 2::Brake functioning");
 	  }
 }

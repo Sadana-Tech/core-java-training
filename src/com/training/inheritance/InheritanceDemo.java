@@ -6,6 +6,10 @@ public class InheritanceDemo {
 	    Car car = new Car();
 	    car.engine(); // Inherited from Vehicle
 	    car.autoModeDrive(); // Specific to Car
+	    
+	    Bus bus = new Bus();
+	    bus.vehicle.brake();
+	    bus.vehicle2.brake();
 	  }
 
 }
