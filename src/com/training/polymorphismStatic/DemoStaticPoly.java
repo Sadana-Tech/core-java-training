@@ -7,6 +7,7 @@ public class DemoStaticPoly {
 	Calculator obj = new Calculator();
 	System.out.println(obj.add(100, 200));
 	System.out.println(obj.add(100, 200, 300));
+	System.out.println(obj.add(100f, 200f, 300f));
 	}
 
 }

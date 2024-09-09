@@ -9,7 +9,7 @@ public class DemoTelevison {
 		t.channelTuning(2);
 		t.decreaseVolume();
 		t.increaseVolume();
-	    //t.width = 12;
+	    t.volume = 15;
 	}
 
 }

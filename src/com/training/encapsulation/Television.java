@@ -31,16 +31,19 @@ public class Television {
 	public int decreaseVolume() {
 		if (0 < volume)
 			volume--;
+		System.out.println("Decrese volume");
 		return volume;
 	}
 
 	public void powerSwitch() {
+		System.out.println("powerSwitch");
 		this.power = !power;
 	}
 
 	public int increaseVolume() {
 		if (maxVolume > volume)
 			volume++;
+		System.out.println("increase volume");
 		return volume;
 	}
 }

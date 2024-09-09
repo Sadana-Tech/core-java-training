@@ -1,9 +1,9 @@
 package com.training.polymorphismDynamic;
 
-public class MacBook {
+public class Mac {
 	
 	public void myMethod(){
-		System.out.println("Overridden Method");
+		System.out.println("MacBook :Overridden Method");
 		}
 
 }
