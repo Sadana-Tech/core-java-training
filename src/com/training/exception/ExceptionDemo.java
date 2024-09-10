@@ -9,10 +9,11 @@ public class ExceptionDemo {
 	      try {
 	         System.out.print("Enter an integer: ");
 	         int num = input.nextInt();
-	         int reciprocal = 1 / 0;
+	         int reciprocal = 1 ;
 	         System.out.println("The reciprocal of " + num + " is " + reciprocal);
-	         String s=null;
-	         System.out.println(s.charAt(1));
+				/*
+				 * String s=null; System.out.println(s.charAt(1));
+				 */
 	      } catch (ArithmeticException e) {
 	         System.out.println("Cannot divide by zero");
 	      } catch (Exception e) {

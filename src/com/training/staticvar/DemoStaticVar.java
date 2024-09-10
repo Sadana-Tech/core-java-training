@@ -15,7 +15,7 @@ public class DemoStaticVar {
 		s2.name = "Jackson";
 		// No initialization of teacher for student s2
 		//test();
-		//System.out.println(s);
+	 //System.out.println(s);
 
 		System.out.println(s1.name + ":" + s1.age + ":" + s1.teacher);
 		System.out.println(s2.name + ":" + s2.age + ":" + s2.teacher);
